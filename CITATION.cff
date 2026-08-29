@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+type: software
+title: "Elliptic Rank Search"
+message: "If you use this software, please cite the archived release version you used."
+authors:
+  - family-names: "Barnes"
+    given-names: "Marcus Emmanuel"
+version: "0.1.0"
+repository-code: "https://github.com/MarcusBarnes/elliptic-rank-search"
+abstract: "Research software for exact and heuristic computational searches for elliptic curves over Q with large Mordell-Weil rank, with public workflows emphasizing candidate generation, reproducibility, and separation of heuristic evidence from rigorous rank certification."
+keywords:
+  - elliptic curves
+  - Mordell-Weil rank
+  - computational number theory
+  - SageMath
+  - PARI/GP
+  - Mestre-Nagao score
+  - reproducible research software
+license: BSD-3-Clause
