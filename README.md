@@ -1,10 +1,10 @@
 # Elliptic Rank Search
 
 Research software for reproducible computational searches for elliptic curves over
-\(\mathbb{Q}\) with large Mordell-Weil rank.
+$\mathbb{Q}$ with large Mordell-Weil rank.
 
 The primary public objective of this project is to develop computational methods
-for finding promising elliptic curves over \(\mathbb{Q}\), analyzing them with
+for finding promising elliptic curves over $\mathbb{Q}$, analyzing them with
 exact and heuristic tools, and clearly separating candidate generation from
 rigorous rank certification.
 
@@ -12,7 +12,7 @@ This repository does not claim a new rank record.
 
 ## Mathematical Scope
 
-For an elliptic curve \(E/\mathbb{Q}\), the Mordell-Weil group \(E(\mathbb{Q})\)
+For an elliptic curve $E/\mathbb{Q}$, the Mordell-Weil group $E(\mathbb{Q})$
 is finitely generated. Its rank is one of the central arithmetic invariants of
 the curve, and finding curves with unusually large rank is a long-running
 computational problem.
