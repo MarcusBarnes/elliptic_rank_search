@@ -1,5 +1,7 @@
 # Elliptic Rank Search
 
+[![DOI](https://zenodo.org/badge/1350985562.svg)](https://doi.org/10.5281/zenodo.22167424)
+
 Research software for reproducible computational searches for elliptic curves over
 $\mathbb{Q}$ with large Mordell-Weil rank.
 

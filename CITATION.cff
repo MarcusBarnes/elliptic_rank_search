@@ -6,7 +6,8 @@ authors:
   - family-names: "Barnes"
     given-names: "Marcus Emmanuel"
 version: "0.1.0"
-repository-code: "https://github.com/MarcusBarnes/elliptic-rank-search"
+doi: "10.5281/zenodo.22167424"
+repository-code: "https://github.com/MarcusBarnes/elliptic_rank_search"
 abstract: "Research software for exact and heuristic computational searches for elliptic curves over Q with large Mordell-Weil rank, with public workflows emphasizing candidate generation, reproducibility, and separation of heuristic evidence from rigorous rank certification."
 keywords:
   - elliptic curves
