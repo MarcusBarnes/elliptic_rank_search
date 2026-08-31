@@ -72,6 +72,27 @@ The public implementation is independent project code built from the published
 mathematics and documented algorithms; it is not copied from the authors'
 source code.
 
+### Elkies 2026 — rank-17 elliptic K3 fibration
+
+**Source:** Noam D. Elkies, *An elliptic K3 surface $X/\mathbb{Q}(t)$ with Mordell-Weil rank 17, I: Formulas for $X$ and base changes of ranks 18 and 19*, arXiv:2608.25406v1, 26 August 2026.
+
+**Type:** Primary source.
+
+**Claims used in this repository:**
+
+- Gives an explicit elliptic K3 surface over $\mathbb{Q}(t)$ with 17 independent sections.
+- Provides the explicit Weierstrass model and the 17 section coordinates used by the rank-17 reproduction.
+- Gives the height-pairing calculation and the published $17\times17$ Gram matrix with determinant $948$.
+- Identifies
+  $$
+  t=-9529/5471
+  $$
+  as the specialization yielding Elkies's published rank-at-least-28 curve.
+- Describes explicit base changes producing generic ranks 18 and 19.
+
+**Repository connection:**  
+The scripts under `examples/elkies_2026_rank17/` reproduce the published rank-17 fibration and the published rank-at-least-28 specialization. This repository uses the paper as a source for reproduction of published results and reproducibility infrastructure, not for unpublished specialization searches or new rank claims.
+
 ## Computational Tools
 
 ### SageMath
