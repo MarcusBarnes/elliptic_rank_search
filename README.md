@@ -43,6 +43,9 @@ The initial public release focuses on stable, reproducible Track-A tooling:
 - SageMath analysis of generated candidate curves;
 - specialization construction and NumPy Mestre-Nagao scoring for a published
   Elkies-Klagsbrun family benchmark;
+- SageMath reproduction of Fermigier's published 1997 rank-$\ge 22$
+  specialization, including the exact parameter convention, quartic/Jacobian
+  construction, and historical score checkpoints;
 - small reproducibility tests and examples.
 
 Additional unpublished exploratory components are intentionally excluded from
@@ -64,6 +67,14 @@ t = 11860/97527
 
 This benchmark is included as a reproducibility and provenance artifact. It is
 not presented as a new mathematical result.
+
+The repository also includes a SageMath reproduction of Stéfane Fermigier's
+1997 rank-$\ge 22$ example at $t_{\mathrm{paper}}=19754/39$. The example
+verifies the split-sextic square completion, twelve forced rational points on
+the quartic, $\mathbb{Q}$-isomorphism of the Jacobian with Fermigier's published
+curve, and the historical Mestre-Nagao score checkpoints. The published
+rank-$\ge 22$ result is cited rather than independently re-certified by this
+example. See `examples/fermigier_1997_rank22/`.
 
 Any public statement about current record ranks should be treated as a
 time-sensitive claim and verified against citable sources before release.
@@ -103,13 +114,19 @@ Analyze an included exact example with SageMath:
 sage sage_analyze.py example_curve.json
 ```
 
-Reproduce the published specialization benchmark with SageMath:
+Reproduce the published Elkies-Klagsbrun specialization benchmark with SageMath:
 
 ```bash
 sage search_specializations.py \
   --u 2/5 \
   --t 11860/97527 \
   --output data/benchmarks/benchmark_u2_5_t11860_97527.json
+```
+
+Reproduce Fermigier's published 1997 rank-$\ge 22$ specialization:
+
+```bash
+sage examples/fermigier_1997_rank22/reproduce_rank22.sage
 ```
 
 See `docs/reproducibility/SMALL_WORKFLOWS.md` for additional reproducibility
@@ -191,7 +208,7 @@ distinguish:
 
 ## References
 
-Core references include work by Mestre, Nagao, Silverman, and
+Core references include work by Mestre, Nagao, Silverman, Fermigier, and
 Elkies-Klagsbrun. See `REFERENCES.md` for the curated public bibliography.
 
 ## AI and Computational Tool Disclosure

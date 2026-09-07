@@ -1,0 +1,146 @@
+{
+  "source": {
+    "author": "St\u00e9fane Fermigier",
+    "title": "Une courbe elliptique d\u00e9finie sur Q de rang >= 22",
+    "journal": "Acta Arithmetica",
+    "volume": "82",
+    "issue": "4",
+    "year": 1997,
+    "pages": "359-363",
+    "doi": "10.4064/aa-82-4-359-363"
+  },
+  "proof_status": "published-result reproduction; rank >= 22 is not independently re-certified here",
+  "selected_roots": [
+    "0",
+    "55",
+    "314",
+    "378",
+    "1007",
+    "1036"
+  ],
+  "t_paper": "19754/39",
+  "symmetric_shift_T": "39508/39",
+  "identity_verified": true,
+  "quartic_degree": 4,
+  "forced_points_verified": true,
+  "forced_points": [
+    {
+      "x": "-39508/39",
+      "y": "287506647092432130496/2197",
+      "verified": true
+    },
+    {
+      "x": "39508/39",
+      "y": "-68816125945041544384/2197",
+      "verified": true
+    },
+    {
+      "x": "-37363/39",
+      "y": "-784226964940790869792/6591",
+      "verified": true
+    },
+    {
+      "x": "41653/39",
+      "y": "202624348110647242528/6591",
+      "verified": true
+    },
+    {
+      "x": "-27262/39",
+      "y": "-458922196112380149632/6591",
+      "verified": true
+    },
+    {
+      "x": "51754/39",
+      "y": "270686440156006281344/6591",
+      "verified": true
+    },
+    {
+      "x": "-24766/39",
+      "y": "130069157346825350528/2197",
+      "verified": true
+    },
+    {
+      "x": "54250/39",
+      "y": "-103856203171554587264/2197",
+      "verified": true
+    },
+    {
+      "x": "-235/39",
+      "y": "176065078834716639008/6591",
+      "verified": true
+    },
+    {
+      "x": "78781/39",
+      "y": "-1037310884255461365536/6591",
+      "verified": true
+    },
+    {
+      "x": "896/39",
+      "y": "-185643331099318062656/6591",
+      "verified": true
+    },
+    {
+      "x": "79912/39",
+      "y": "1082017083338596236608/6591",
+      "verified": true
+    }
+  ],
+  "jacobian_ainvs": [
+    "0",
+    "0",
+    "0",
+    "-264132011804113078187292696752570206581892566412935005347289956382408704/5661434684762883",
+    "261936879921693065207079588189414280017349661020835260272455457633473975470476467093940394723138832049373184/2213459775035377368958107"
+  ],
+  "published_E22_ainvs": [
+    "1",
+    "0",
+    "1",
+    "-940299517776391362903023121165864",
+    "10707363070719743033425295515449274534651125011362"
+  ],
+  "j_invariant_match": true,
+  "QQ_isomorphic_to_published_E22": true,
+  "historical_score_convention": "first M primes, p=2 omitted",
+  "historical_scores": [
+    {
+      "M": 50,
+      "computed": 29.486922623291182,
+      "published": 29.49,
+      "match_2dp": true
+    },
+    {
+      "M": 100,
+      "computed": 44.11745806453722,
+      "published": 44.12,
+      "match_2dp": true
+    },
+    {
+      "M": 200,
+      "computed": 57.544021335722164,
+      "published": 57.54,
+      "match_2dp": true
+    },
+    {
+      "M": 400,
+      "computed": 81.50734676321427,
+      "published": 81.51,
+      "match_2dp": true
+    },
+    {
+      "M": 1000,
+      "computed": 105.17079771072733,
+      "published": 105.17,
+      "match_2dp": true
+    },
+    {
+      "M": 2000,
+      "computed": 122.76248928788628,
+      "published": 122.76,
+      "match_2dp": true
+    }
+  ],
+  "all_checks_passed": true,
+  "started_at": "2026-09-07T13:12:28.510004-04:00",
+  "wall_seconds": 0.21056099992711097
+}

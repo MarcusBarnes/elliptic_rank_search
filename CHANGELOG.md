@@ -10,5 +10,7 @@
 - Add published-family specialization construction and Mestre-Nagao scoring for
   an Elkies-Klagsbrun benchmark.
 - Include a small public benchmark reproduction at `u=2/5`, `t=11860/97527`.
+- Add a SageMath literature reproduction of Fermigier's published 1997
+  rank-$\ge 22$ specialization and historical score checkpoints.
 - Add reproducibility documentation and lightweight exact-arithmetic tests.
 - Add BSD-3-Clause license and citation metadata for future archival releases.

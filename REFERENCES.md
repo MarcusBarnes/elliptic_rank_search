@@ -35,6 +35,17 @@ Koh-ichi Nagao.
 Used here for high-rank elliptic-curve construction and computational-search
 background.
 
+### Fermigier (1997)
+
+Stéfane Fermigier.  
+**Une courbe elliptique définie sur $\mathbb{Q}$ de rang $\ge 22$.**  
+*Acta Arithmetica*, 82(4) (1997), 359-363.  
+DOI: 10.4064/aa-82-4-359-363.
+
+Used here as the primary source for the public rank-$\ge 22$
+literature-reproduction example, including the selected Mestre-Fermigier
+specialization and historical finite-prime score checkpoints.
+
 ## Specialization Background
 
 ### Silverman (1983)

@@ -1,0 +1,20 @@
+{
+  "source": "Stéfane Fermigier, Acta Arithmetica 82(4) (1997), 359-363",
+  "doi": "10.4064/aa-82-4-359-363",
+  "t_paper": "19754/39",
+  "symmetric_shift_T": "39508/39",
+  "selected_roots": ["0", "55", "314", "378", "1007", "1036"],
+  "quartic_degree": 4,
+  "forced_points_expected": 12,
+  "QQ_isomorphic_to_published_E22": true,
+  "historical_score_convention": "first M primes, p=2 omitted",
+  "historical_scores_2dp": {
+    "50": 29.49,
+    "100": 44.12,
+    "200": 57.54,
+    "400": 81.51,
+    "1000": 105.17,
+    "2000": 122.76
+  },
+  "proof_status": "literature reproduction; published rank >= 22 is not independently re-certified by this example"
+}
