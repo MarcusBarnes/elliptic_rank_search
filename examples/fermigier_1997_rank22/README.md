@@ -1,6 +1,6 @@
-# Fermigier 1997 rank-$\ge 22$ reproduction
+# Fermigier 1997 rank ≥ 22 reproduction
 
-This example reproduces selected computational features of Stéfane Fermigier's published 1997 rank-$\ge 22$ elliptic curve construction.
+This example reproduces selected computational features of Stéfane Fermigier's published 1997 rank ≥ 22 elliptic curve construction.
 
 The purpose of the example is **reproducibility and provenance**. It is not a new rank claim and it is not the project's unpublished specialization-search code.
 
