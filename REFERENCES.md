@@ -104,6 +104,18 @@ source code.
 **Repository connection:**  
 The scripts under `examples/elkies_2026_rank17/` reproduce the published rank-17 fibration and the published rank-at-least-28 specialization. This repository uses the paper as a source for reproduction of published results and reproducibility infrastructure, not for unpublished specialization searches or new rank claims.
 
+### Klagsbrun, Sherman, and Weigandt (2016)
+
+Zev Klagsbrun, Travis Sherman, and James Weigandt.
+*The Elkies Curve has Rank 28 Subject only to GRH*.
+arXiv:1606.07178, 2016.
+
+Used here for:
+
+- the published generalized Weierstrass model of Elkies's rank-at-least-28 curve;
+- the conditional result that, subject to GRH for number fields, the curve has Mordell-Weil rank exactly 28;
+- provenance for the distinction between the unconditional rank-at-least-28 statement and the conditional exact-rank statement.
+
 ## Computational Tools
 
 ### SageMath
