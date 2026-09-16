@@ -14,3 +14,5 @@
   rank-$\ge 22$ specialization and historical score checkpoints.
 - Add reproducibility documentation and lightweight exact-arithmetic tests.
 - Add BSD-3-Clause license and citation metadata for future archival releases.
+- Document the existing exact SageMath reproduction of Elkies's published 2026 rank-17 elliptic K3 fibration, including the 17 sections and height-pairing determinant 948.
+- Document the existing reproduction of the published rank-at-least-28 specialization at `t=-9529/5471`, including exact curve identification and verification of the 28 published rational points.

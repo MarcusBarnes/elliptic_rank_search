@@ -46,6 +46,10 @@ The initial public release focuses on stable, reproducible Track-A tooling:
 - SageMath reproduction of Fermigier's published 1997 rank-$\ge 22$
   specialization, including the exact parameter convention, quartic/Jacobian
   construction, and historical score checkpoints;
+- SageMath reproduction of Elkies's published 2026 rank-17 elliptic K3 fibration,
+  including exact verification of the 17 published sections, reconstruction of the
+  published height-pairing Gram matrix with determinant 948, and reproduction of the
+  published rank-at-least-28 specialization at $t=-9529/5471$;
 - small reproducibility tests and examples.
 
 Additional unpublished exploratory components are intentionally excluded from
@@ -75,6 +79,16 @@ the quartic, $\mathbb{Q}$-isomorphism of the Jacobian with Fermigier's published
 curve, and the historical Mestre-Nagao score checkpoints. The published
 rank-$\ge 22$ result is cited rather than independently re-certified by this
 example. See `examples/fermigier_1997_rank22/`.
+
+The repository also includes an exact SageMath reproduction of Noam Elkies's
+2026 rank-17 elliptic K3 fibration. The example reconstructs the published
+Weierstrass model, verifies all 17 published sections, recomputes the published
+height-pairing Gram matrix, and verifies determinant 948. A companion script
+reproduces the published specialization at $t=-9529/5471$, checks exact
+$\mathbb{Q}$-isomorphism to the published Elkies rank-28 model, and verifies the
+28 published rational points. The exact-rank-28 statement is conditional on GRH;
+the unconditional published lower bound is rank at least 28. See
+`examples/elkies_2026_rank17/`.
 
 Any public statement about current record ranks should be treated as a
 time-sensitive claim and verified against citable sources before release.
@@ -127,6 +141,17 @@ Reproduce Fermigier's published 1997 rank-$\ge 22$ specialization:
 
 ```bash
 sage examples/fermigier_1997_rank22/reproduce_rank22.sage
+```
+
+Reproduce Elkies's published 2026 rank-17 K3 fibration:
+
+```bash
+sage examples/elkies_2026_rank17/elkies_2026_rank17.sage
+```
+
+Reproduce the published rank-at-least-28 specialization:
+```bash
+sage examples/elkies_2026_rank17/elkies_2026_rank28_specialization.sage
 ```
 
 See `docs/reproducibility/SMALL_WORKFLOWS.md` for additional reproducibility
